@@ -24,3 +24,6 @@ jobs:
 
       - name: Run tests
         run: npm test
+- name: Use secret
+  run: echo "Using API key ${{ secrets.API_KEY }}"
+
