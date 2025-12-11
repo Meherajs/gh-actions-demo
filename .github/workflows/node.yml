@@ -27,3 +27,5 @@ jobs:
 - name: Use secret
   run: echo "Using API key ${{ secrets.API_KEY }}"
 
+on:
+  workflow_dispatch:
